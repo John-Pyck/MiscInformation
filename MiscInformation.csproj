@@ -49,25 +49,69 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Antlr4.Runtime">
+      <HintPath>..\..\..\..\..\..\..\Development\workspaces\poehelper_ws\ExileApi-3.17.25\PoeHelper\net48\Antlr4.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="ExileCore">
-      <HintPath>..\..\..\..\PoeHelper\ExileCore.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Development\workspaces\poehelper_ws\ExileApi-3.17.25\PoeHelper\net48\ExileCore.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="ImGui.NET">
+      <HintPath>..\..\..\..\..\..\..\Development\workspaces\poehelper_ws\ExileApi-3.17.25\PoeHelper\net48\ImGui.NET.dll</HintPath>
+    </Reference>
     <Reference Include="JM.LinqFaster, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\packages\LinqFaster.1.0.0\lib\net461\JM.LinqFaster.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Development\workspaces\poehelper_ws\ExileApi-3.17.25\PoeHelper\net48\JM.LinqFaster.dll</HintPath>
       <Private>False</Private>
+    </Reference>
+    <Reference Include="Loader">
+      <HintPath>..\..\..\..\..\..\..\Development\workspaces\poehelper_ws\ExileApi-3.17.25\PoeHelper\net48\Loader.exe</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Setup.Configuration.Interop">
+      <HintPath>..\..\..\..\..\..\..\Development\workspaces\poehelper_ws\ExileApi-3.17.25\PoeHelper\net48\Microsoft.VisualStudio.Setup.Configuration.Interop.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Development\workspaces\poehelper_ws\ExileApi-3.17.25\PoeHelper\net48\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ProcessMemoryUtilities">
+      <HintPath>..\..\..\..\..\..\..\Development\workspaces\poehelper_ws\ExileApi-3.17.25\PoeHelper\net48\ProcessMemoryUtilities.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\SharpDX.4.2.0\lib\net45\SharpDX.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="SharpDX.Desktop">
+      <HintPath>..\..\..\..\..\..\..\Development\workspaces\poehelper_ws\ExileApi-3.17.25\PoeHelper\net48\SharpDX.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D11">
+      <HintPath>..\..\..\..\..\..\..\Development\workspaces\poehelper_ws\ExileApi-3.17.25\PoeHelper\net48\SharpDX.Direct3D11.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.DXGI">
+      <HintPath>..\..\..\..\..\..\..\Development\workspaces\poehelper_ws\ExileApi-3.17.25\PoeHelper\net48\SharpDX.DXGI.dll</HintPath>
+    </Reference>
     <Reference Include="SharpDX.Mathematics, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\SharpDX.Mathematics.4.2.0\lib\net45\SharpDX.Mathematics.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Development\workspaces\poehelper_ws\ExileApi-3.17.25\PoeHelper\net48\SharpDX.Mathematics.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="StaticResources">
+      <HintPath>..\..\..\..\..\..\..\Development\workspaces\poehelper_ws\ExileApi-3.17.25\PoeHelper\net48\StaticResources.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Development\workspaces\poehelper_ws\ExileApi-3.17.25\PoeHelper\net48\System.Buffers.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Development\workspaces\poehelper_ws\ExileApi-3.17.25\PoeHelper\net48\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>..\..\..\..\..\..\..\Development\workspaces\poehelper_ws\ExileApi-3.17.25\PoeHelper\net48\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />

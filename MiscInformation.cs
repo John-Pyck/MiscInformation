@@ -254,7 +254,7 @@ namespace MiscInformation
             if (entities.Count == 0)
                 return 1;
 
-            var levels = entities.SelectF(y => y.GetComponent<Player>().Level).ToList();
+            var levels = entities.Select(y => y.GetComponent<Player>().Level).ToList();
             var characterLevel = GameController.Player.GetComponent<Player>().Level;
             var partyXpPenalty = Math.Pow(characterLevel + 10, 2.71) / levels.SumF(level => Math.Pow(level + 10, 2.71));
             return partyXpPenalty * levels.Count;
